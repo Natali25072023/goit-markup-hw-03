@@ -1,0 +1,144 @@
+body{
+    color:#434455;
+    font-family: "Roboto", sans-serif;
+    background-color: #FFF;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+ .link {
+   letter-spacing: 0.02em;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   color: #2e2f42;
+   
+ } 
+
+ .link:hover,
+ .link:focus {
+    color: #404bbf;
+    text-decoration: underline;
+ }
+
+ .contacts{
+   color: #434455;
+   letter-spacing: 0.02em;
+ }
+  
+ .contacts:hover,
+ .contacts:focus {
+   color: #404BBF;
+ }
+
+
+ .write-us{
+   font-style: normal;
+ }
+
+ .main-title{
+   color: #FFF;
+   text-align: center;
+   font-family: Roboto;
+   font-size: 56px;
+   font-weight: 700;
+   line-height: 1.07;
+   letter-spacing: 1.12px;
+}
+
+ .top-section{
+   background: #2E2F42;
+ }
+
+ .main-btn{
+   color:  #FFF;
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   line-height: 1.5;
+   letter-spacing: 0.64px;
+   cursor: pointer;
+   background: var(--iris, #4D5AE5);
+   
+ }
+
+   .main-btn:hover, .main-btn:focus{
+     background: var(--ocean, #404BBF);
+         
+   }
+ 
+ 
+
+   
+ .title-two{
+   color: #2e2f42;
+   text-align: center;
+   font-size: 36px;
+   font-weight: 700;
+   line-height: 1.11;
+   letter-spacing: 0.02em;
+   text-transform: capitalize;
+ }
+
+ .submain-title{
+   color: #2e2f42; 
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+}
+
+ .text{
+   letter-spacing: 0.02em;
+   color:#434455;
+   font-size: 16px;
+   line-height: 1.5;
+
+ }
+ .our-team{
+   background:  #F4F4FD;}
+
+ .about-team{
+   background-color: #FFFFFF;
+
+ }
+
+
+  li a{
+   text-decoration: none;
+ }
+   
+
+
+  li {
+    list-style-type: none;}
+
+ .logo{
+   text-decoration: none;
+   font-family: "Raleway", sans-serif;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: #4d5ae5;
+   }
+
+    
+ .logo-two{
+   color: #2e2f42;
+    }
+
+ .logo-two-footer{
+   color:#f4f4fd;
+    }
+
+ .footer-text{
+    color: #F4F4FD;
+    font-family: Roboto;
+    letter-spacing: 0.32px;
+ }
+
+ .footer{
+    background: #2E2F42;
+ }
