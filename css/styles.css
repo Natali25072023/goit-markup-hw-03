@@ -15,11 +15,11 @@ body{
     height: 100%;
 }
 
- header{
-  
+ header{  
   flex-shrink: 0;
   border-bottom: 1px solid  #E7E9FC;
   padding-bottom: 0;
+  margin-bottom: 0;
  }
 
  .link {
@@ -57,11 +57,18 @@ body{
  }
 
  .write-us{
-   display: inline-flex;
+   width: 344px;
+   display: flex;
    gap: 40px;
    font-style: normal;
    margin:0;
+   padding: 0;
   
+ }
+
+ .tel-mail{
+  margin-top: 24px;
+  margin-bottom: 24px;
  }
 
  .main-title{
@@ -71,15 +78,17 @@ body{
    font-size: 56px;
    font-weight: 700;
    line-height: 1.07;
-   letter-spacing: 1.12px;
-   width: 496px;
-   margin-left: 472px;
-   margin-right: 472px;
-   margin-top: 188px;
+   letter-spacing: 0.02em;
+   width: 496px;   
+   margin:auto;
+   margin-bottom: 48px;
+  
+   
 }
 
  .top-section{
    background: #2E2F42;
+
  }
 
  .main-btn{
@@ -87,18 +96,15 @@ body{
    font-family: "Roboto", sans-serif;
    font-weight: 500;
    line-height: 1.5;
-   letter-spacing: 0.64px;
+   letter-spacing: 0.04em;
    width: 282px;
    cursor: pointer;
    background: #4D5AE5;
-   display: inline-flex;
    padding: 16px 32px;
    align-items: flex-start;
-   gap: 10px;
    align-content: center;
-   margin-right: 635px;
-   margin-bottom: 188px;
-   margin-left: 636px;
+   display: block;
+   margin: 0 auto;
    border-radius: 4px;
    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
  }
@@ -119,8 +125,8 @@ body{
    line-height: 1.11;
    letter-spacing: 0.02em;
    text-transform: capitalize;
-   margin-left: 0;
-   margin-right: 0;
+   margin: 0;
+   margin-bottom: 72px;
  }
 
  .submain-title{
@@ -129,17 +135,21 @@ body{
    font-weight: 500;
    line-height: 1.2;
    letter-spacing: 0.02em;
-   margin-left: 0;
+   margin-left: 16px;
    margin-right: 0;
-}
+   margin-top: 32px;
+   margin-bottom: 0;
+  }
 
  .text{
    letter-spacing: 0.02em;
    color:#434455;
    font-size: 16px;
    line-height: 1.5;
-   margin-left: 0;
+   margin-top: 8px;
+   margin-left: 16px;
    margin-right: 0;
+   margin-bottom: 32px;
 
  }
  .our-team{
@@ -162,7 +172,6 @@ body{
     margin-left: 0;
     margin-right: 0;
     padding-left: 0;
-
   }
 
  .logo{
@@ -174,8 +183,7 @@ body{
    letter-spacing: 0.03em;
    text-transform: uppercase;
    color: #4d5ae5;
-   margin: 25.5px 0 25.5px 156px;
-   }
+      }
 
     
  .logo-two{
@@ -189,9 +197,10 @@ body{
  .footer-text{
     color: #F4F4FD;
     font-family: Roboto;
-    letter-spacing: 0.32px;
-    margin-left: 0;
-    margin-right: 0;
+    letter-spacing: 0.02em;
+    margin: 17.5px 0 0 0;
+    width: 264px;
+    
  }
 
  .footer{
@@ -199,41 +208,65 @@ body{
  }
 
 
- .container-one {
-   display: block;
+ .header-container {
+   display: inline-flex;
    padding: 24px 156px;
    width: 1158px;
    margin: auto;
  }
  
- .container{
+ .hero-container {
+   padding-top: 188px;
+   padding-bottom: 188px;
+   width: 1158px;
+   margin: auto;
+   justify-content: center;
+  
+ }
+  .container{
   display: block;
   padding-top: 120px;
   padding-bottom: 120px;
-  width: 1158px;
-  margin: auto;
-  justify-content: center;
-  
+  width: 100%;
+  margin: 0;  
  }
 
+ .footer-container{
+  padding-top: 101.5px;
+  padding-bottom: 100px;
+  padding-left: 156px;
+  padding-right: 1020px;
+ }
 
  .princeps{
   display: flex;
   gap: 24px;
   padding-left: 156px;
   padding-right: 156px;
+  margin:0;
   justify-content: center;
  }
-
+ 
+ .card{
+  border-bottom: 1px solid var(--cornflower, #E7E9FC);
+  
+ }
  .card-set{
   display: flex;
   flex-wrap: wrap;
   row-gap: 24px;
   column-gap: 48px;
   align-content: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 156px;
  }
 
  .card-set .card{
-  width: calc((100% - 48px) / 3);
+  width: calc((1159px - 48px) / 3);
  }
 
+ .navigation{
+  display: flex;
+  align-items: center;
+ }
